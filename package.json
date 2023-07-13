@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/PhilVoel/pml.ts/issues"
   },
-  "homepage": "https://github.com/PhilVoel/pml.ts#readme"
+  "homepage": "https://github.com/PhilVoel/pml.ts#readme",
+  "dependencies": {
+    "@types/node": "^20.4.2"
+  }
 }
