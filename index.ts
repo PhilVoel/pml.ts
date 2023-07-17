@@ -1,5 +1,5 @@
-import fs from 'fs';
+import {readFileSync} from 'fs';
 
 export function parse_file(file: string): string {
-	return fs.readFileSync(file, 'utf8');
+	return readFileSync(file, 'utf8');
 }
